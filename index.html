@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Even Odd Game</h1>
+        <div class="game-container">
+            <div id="numberDisplay" class="number-display">?</div>
+            <button class="generate-btn" onclick="generateNumber()">Generate Number</button>
+            <div class="buttons">
+                <button class="guess-btn even-btn" onclick="guess('even')">Even</button>
+                <button class="guess-btn odd-btn" onclick="guess('odd')">Odd</button>
+            </div>
+            <p id="result" class="result"></p>
+        </div>
+    </div>
+    <audio id="correctSound" src="correct.mp3" preload="auto"></audio>
+    <audio id="wrongSound" src="wrong.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
