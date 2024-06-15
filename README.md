@@ -1,4 +1,4 @@
-Liqve view of the Work : https://eogame.vercel.app/
+Live view of the Work : https://eogame.vercel.app/
 
 "Even Odd" game using HTML, CSS, and JavaScript:
 
